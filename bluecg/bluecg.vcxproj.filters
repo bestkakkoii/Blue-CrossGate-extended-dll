@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{ed915a2a-4df6-4d83-a15d-d80397a89d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TDebug">
+      <UniqueIdentifier>{93b506d6-2687-48ce-a6ac-87806cfcb409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bluecg">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Runtime\CSocket.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\CAsm.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="TDebug\TDebuger.h">
+      <Filter>TDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="TDebug\TMessage.h">
+      <Filter>TDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\CKernel32.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>bluecg</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\CRuntime.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\CThread.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="Runtime\CMap.h">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>bluecg</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CSocket.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CAsm.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="TDebug\TDebuger.cpp">
+      <Filter>TDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CKernel32.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CRuntime.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CThread.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="Runtime\CMap.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
